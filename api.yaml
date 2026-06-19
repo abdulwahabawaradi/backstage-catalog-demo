@@ -1,0 +1,20 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+
+metadata:
+  name: demo-api
+  description: Demo REST API
+
+spec:
+  type: openapi
+
+  lifecycle: production
+
+  owner: platform-team
+
+  definition: |
+    openapi: 3.0.0
+    info:
+      title: Demo API
+      version: "1.0"
+    paths: {}
