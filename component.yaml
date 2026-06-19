@@ -7,12 +7,12 @@ metadata:
 
 spec:
   type: service
-
   lifecycle: production
 
-  owner: platform-team
+  owner: group:default/platform-team
 
   system: ecommerce-platform
 
   providesApis:
     - demo-api
+    
