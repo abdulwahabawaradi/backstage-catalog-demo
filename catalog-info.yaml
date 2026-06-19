@@ -1,13 +1,13 @@
 apiVersion: backstage.io/v1alpha1
-kind: Location
+kind: Component
 
 metadata:
-  name: catalog-location
+  name: demo-service
 
 spec:
-  targets:
-    - ./user.yaml
-    - ./group.yaml
-    - ./system.yaml
-    - ./api.yaml
-    - ./component.yaml
+  type: service
+  owner: platform-team
+  lifecycle: production
+  system: ecommerce-platform
+  providesApis:
+    - demo-api
