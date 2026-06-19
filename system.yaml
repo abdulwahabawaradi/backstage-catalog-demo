@@ -3,7 +3,7 @@ kind: System
 
 metadata:
   name: ecommerce-platform
-  description: E-Commerce Platform
 
 spec:
-  owner: platform-team
+  owner: group:default/platform-team
+  
