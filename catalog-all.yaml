@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+
+metadata:
+  name: demo-catalog
+
+spec:
+  targets:
+    - ./group.yaml
+    - ./system.yaml
+    - ./api.yaml
+    - ./user.yaml
+    - ./component.yaml
