@@ -3,12 +3,10 @@ kind: Group
 
 metadata:
   name: platform-team
-  description: Platform Engineering Team
 
 spec:
   type: team
 
-  children: []
-
   members:
     - abdul
+    
