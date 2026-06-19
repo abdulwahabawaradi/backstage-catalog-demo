@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+
+metadata:
+  name: demo-service
+  description: Demo Service for Assignment
+
+spec:
+  type: service
+
+  lifecycle: production
+
+  owner: platform-team
+
+  system: ecommerce-platform
+
+  providesApis:
+    - demo-api
